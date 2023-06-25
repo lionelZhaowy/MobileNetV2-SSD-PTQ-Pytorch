@@ -1,0 +1,1550 @@
+Measuring time for GraphModule(
+  (mobilenet): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(3, 32, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1))
+    )
+    (1): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+        )
+        (1): QuantizedConv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (2): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+        )
+        (2): QuantizedConv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (3): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+        )
+        (2): QuantizedConv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (4): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+        )
+        (2): QuantizedConv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (5): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+        )
+        (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (6): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+        )
+        (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (7): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+        )
+        (2): QuantizedConv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (8): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+        )
+        (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (9): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+        )
+        (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (10): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+        )
+        (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (11): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+        )
+        (2): QuantizedConv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (12): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+        )
+        (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (13): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+        )
+        (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (14): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+        )
+        (2): QuantizedConv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (15): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+        )
+        (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (16): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+        )
+        (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (17): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+        )
+        (2): QuantizedConv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (18): Module(
+      (0): QuantizedConvReLU2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (L2Norm): Module()
+  (extras): Module(
+    (0): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+        )
+        (2): QuantizedConvReLU2d(256, 512, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (1): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+        )
+        (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (2): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+        )
+        (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+    (3): Module(
+      (conv): Module(
+        (0): Module(
+          (0): QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+        )
+        (1): Module(
+          (0): QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+        )
+        (2): QuantizedConvReLU2d(64, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+    )
+  )
+  (loc): Module(
+    (0): Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (2): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (3): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (conf): Module(
+    (0): Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (2): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (3): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)
+
+
+
+def forward(self, x):
+    mobilenet_0_0_input_scale_0 = self.mobilenet_0_0_input_scale_0
+    mobilenet_0_0_input_zero_point_0 = self.mobilenet_0_0_input_zero_point_0
+    quantize_per_tensor = torch.quantize_per_tensor(x, mobilenet_0_0_input_scale_0, mobilenet_0_0_input_zero_point_0, torch.quint8);  x = mobilenet_0_0_input_scale_0 = mobilenet_0_0_input_zero_point_0 = None
+    mobilenet_0_0 = getattr(getattr(self.mobilenet, "0"), "0")(quantize_per_tensor);  quantize_per_tensor = None
+    mobilenet_1_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "1").conv, "0"), "0")(mobilenet_0_0);  mobilenet_0_0 = None
+    mobilenet_1_conv_1 = getattr(getattr(self.mobilenet, "1").conv, "1")(mobilenet_1_conv_0_0);  mobilenet_1_conv_0_0 = None
+    mobilenet_2_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "2").conv, "0"), "0")(mobilenet_1_conv_1);  mobilenet_1_conv_1 = None
+    mobilenet_2_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "2").conv, "1"), "0")(mobilenet_2_conv_0_0);  mobilenet_2_conv_0_0 = None
+    mobilenet_2_conv_2 = getattr(getattr(self.mobilenet, "2").conv, "2")(mobilenet_2_conv_1_0);  mobilenet_2_conv_1_0 = None
+    mobilenet_3_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "3").conv, "0"), "0")(mobilenet_2_conv_2)
+    mobilenet_3_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "3").conv, "1"), "0")(mobilenet_3_conv_0_0);  mobilenet_3_conv_0_0 = None
+    mobilenet_3_conv_2 = getattr(getattr(self.mobilenet, "3").conv, "2")(mobilenet_3_conv_1_0);  mobilenet_3_conv_1_0 = None
+    mobilenet_3_scale_0 = self.mobilenet_3_scale_0
+    mobilenet_3_zero_point_0 = self.mobilenet_3_zero_point_0
+    add_11 = torch.ops.quantized.add(mobilenet_2_conv_2, mobilenet_3_conv_2, mobilenet_3_scale_0, mobilenet_3_zero_point_0);  mobilenet_2_conv_2 = mobilenet_3_conv_2 = mobilenet_3_scale_0 = mobilenet_3_zero_point_0 = None
+    mobilenet_4_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "4").conv, "0"), "0")(add_11);  add_11 = None
+    mobilenet_4_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "4").conv, "1"), "0")(mobilenet_4_conv_0_0);  mobilenet_4_conv_0_0 = None
+    mobilenet_4_conv_2 = getattr(getattr(self.mobilenet, "4").conv, "2")(mobilenet_4_conv_1_0);  mobilenet_4_conv_1_0 = None
+    mobilenet_5_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "5").conv, "0"), "0")(mobilenet_4_conv_2)
+    mobilenet_5_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "5").conv, "1"), "0")(mobilenet_5_conv_0_0);  mobilenet_5_conv_0_0 = None
+    mobilenet_5_conv_2 = getattr(getattr(self.mobilenet, "5").conv, "2")(mobilenet_5_conv_1_0);  mobilenet_5_conv_1_0 = None
+    mobilenet_5_scale_0 = self.mobilenet_5_scale_0
+    mobilenet_5_zero_point_0 = self.mobilenet_5_zero_point_0
+    add_12 = torch.ops.quantized.add(mobilenet_4_conv_2, mobilenet_5_conv_2, mobilenet_5_scale_0, mobilenet_5_zero_point_0);  mobilenet_4_conv_2 = mobilenet_5_conv_2 = mobilenet_5_scale_0 = mobilenet_5_zero_point_0 = None
+    mobilenet_6_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "6").conv, "0"), "0")(add_12)
+    mobilenet_6_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "6").conv, "1"), "0")(mobilenet_6_conv_0_0);  mobilenet_6_conv_0_0 = None
+    mobilenet_6_conv_2 = getattr(getattr(self.mobilenet, "6").conv, "2")(mobilenet_6_conv_1_0);  mobilenet_6_conv_1_0 = None
+    mobilenet_6_scale_0 = self.mobilenet_6_scale_0
+    mobilenet_6_zero_point_0 = self.mobilenet_6_zero_point_0
+    add_13 = torch.ops.quantized.add(add_12, mobilenet_6_conv_2, mobilenet_6_scale_0, mobilenet_6_zero_point_0);  add_12 = mobilenet_6_conv_2 = mobilenet_6_scale_0 = mobilenet_6_zero_point_0 = None
+    mobilenet_7_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "7").conv, "0"), "0")(add_13);  add_13 = None
+    mobilenet_7_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "7").conv, "1"), "0")(mobilenet_7_conv_0_0);  mobilenet_7_conv_0_0 = None
+    mobilenet_7_conv_2 = getattr(getattr(self.mobilenet, "7").conv, "2")(mobilenet_7_conv_1_0);  mobilenet_7_conv_1_0 = None
+    mobilenet_8_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "8").conv, "0"), "0")(mobilenet_7_conv_2)
+    mobilenet_8_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "8").conv, "1"), "0")(mobilenet_8_conv_0_0);  mobilenet_8_conv_0_0 = None
+    mobilenet_8_conv_2 = getattr(getattr(self.mobilenet, "8").conv, "2")(mobilenet_8_conv_1_0);  mobilenet_8_conv_1_0 = None
+    mobilenet_8_scale_0 = self.mobilenet_8_scale_0
+    mobilenet_8_zero_point_0 = self.mobilenet_8_zero_point_0
+    add_14 = torch.ops.quantized.add(mobilenet_7_conv_2, mobilenet_8_conv_2, mobilenet_8_scale_0, mobilenet_8_zero_point_0);  mobilenet_7_conv_2 = mobilenet_8_conv_2 = mobilenet_8_scale_0 = mobilenet_8_zero_point_0 = None
+    mobilenet_9_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "9").conv, "0"), "0")(add_14)
+    mobilenet_9_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "9").conv, "1"), "0")(mobilenet_9_conv_0_0);  mobilenet_9_conv_0_0 = None
+    mobilenet_9_conv_2 = getattr(getattr(self.mobilenet, "9").conv, "2")(mobilenet_9_conv_1_0);  mobilenet_9_conv_1_0 = None
+    mobilenet_9_scale_0 = self.mobilenet_9_scale_0
+    mobilenet_9_zero_point_0 = self.mobilenet_9_zero_point_0
+    add_15 = torch.ops.quantized.add(add_14, mobilenet_9_conv_2, mobilenet_9_scale_0, mobilenet_9_zero_point_0);  add_14 = mobilenet_9_conv_2 = mobilenet_9_scale_0 = mobilenet_9_zero_point_0 = None
+    mobilenet_10_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "10").conv, "0"), "0")(add_15)
+    mobilenet_10_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "10").conv, "1"), "0")(mobilenet_10_conv_0_0);  mobilenet_10_conv_0_0 = None
+    mobilenet_10_conv_2 = getattr(getattr(self.mobilenet, "10").conv, "2")(mobilenet_10_conv_1_0);  mobilenet_10_conv_1_0 = None
+    mobilenet_10_scale_0 = self.mobilenet_10_scale_0
+    mobilenet_10_zero_point_0 = self.mobilenet_10_zero_point_0
+    add_16 = torch.ops.quantized.add(add_15, mobilenet_10_conv_2, mobilenet_10_scale_0, mobilenet_10_zero_point_0);  add_15 = mobilenet_10_conv_2 = mobilenet_10_scale_0 = mobilenet_10_zero_point_0 = None
+    mobilenet_11_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "11").conv, "0"), "0")(add_16);  add_16 = None
+    mobilenet_11_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "11").conv, "1"), "0")(mobilenet_11_conv_0_0);  mobilenet_11_conv_0_0 = None
+    mobilenet_11_conv_2 = getattr(getattr(self.mobilenet, "11").conv, "2")(mobilenet_11_conv_1_0);  mobilenet_11_conv_1_0 = None
+    mobilenet_12_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "12").conv, "0"), "0")(mobilenet_11_conv_2)
+    mobilenet_12_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "12").conv, "1"), "0")(mobilenet_12_conv_0_0);  mobilenet_12_conv_0_0 = None
+    mobilenet_12_conv_2 = getattr(getattr(self.mobilenet, "12").conv, "2")(mobilenet_12_conv_1_0);  mobilenet_12_conv_1_0 = None
+    mobilenet_12_scale_0 = self.mobilenet_12_scale_0
+    mobilenet_12_zero_point_0 = self.mobilenet_12_zero_point_0
+    add_17 = torch.ops.quantized.add(mobilenet_11_conv_2, mobilenet_12_conv_2, mobilenet_12_scale_0, mobilenet_12_zero_point_0);  mobilenet_11_conv_2 = mobilenet_12_conv_2 = mobilenet_12_scale_0 = mobilenet_12_zero_point_0 = None
+    mobilenet_13_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "13").conv, "0"), "0")(add_17)
+    mobilenet_13_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "13").conv, "1"), "0")(mobilenet_13_conv_0_0);  mobilenet_13_conv_0_0 = None
+    mobilenet_13_conv_2 = getattr(getattr(self.mobilenet, "13").conv, "2")(mobilenet_13_conv_1_0);  mobilenet_13_conv_1_0 = None
+    mobilenet_13_scale_0 = self.mobilenet_13_scale_0
+    mobilenet_13_zero_point_0 = self.mobilenet_13_zero_point_0
+    add_18 = torch.ops.quantized.add(add_17, mobilenet_13_conv_2, mobilenet_13_scale_0, mobilenet_13_zero_point_0);  add_17 = mobilenet_13_conv_2 = mobilenet_13_scale_0 = mobilenet_13_zero_point_0 = None
+    dequantize_47 = add_18.dequantize()
+    pow_1 = dequantize_47.pow(2)
+    sum_1 = pow_1.sum(dim = 1, keepdim = True);  pow_1 = None
+    sqrt = sum_1.sqrt();  sum_1 = None
+    l2norm_scale_0 = self.L2Norm_scale_0
+    l2norm_zero_point_0 = self.L2Norm_zero_point_0
+    quantize_per_tensor_48 = torch.quantize_per_tensor(sqrt, l2norm_scale_0, l2norm_zero_point_0, torch.quint8);  sqrt = l2norm_scale_0 = l2norm_zero_point_0 = None
+    add_19 = torch.ops.quantized.add(quantize_per_tensor_48, 1e-10);  quantize_per_tensor_48 = None
+    dequantize_49 = add_19.dequantize();  add_19 = None
+    div = torch.div(dequantize_47, dequantize_49);  dequantize_47 = dequantize_49 = None
+    l2norm_scale_2 = self.L2Norm_scale_2
+    l2norm_zero_point_2 = self.L2Norm_zero_point_2
+    quantize_per_tensor_50 = torch.quantize_per_tensor(div, l2norm_scale_2, l2norm_zero_point_2, torch.quint8);  l2norm_scale_2 = l2norm_zero_point_2 = None
+    l2norm_weight = self.L2Norm.weight
+    l2norm_scale_3 = self.L2Norm_scale_3
+    l2norm_zero_point_3 = self.L2Norm_zero_point_3
+    quantize_per_tensor_51 = torch.quantize_per_tensor(l2norm_weight, l2norm_scale_3, l2norm_zero_point_3, torch.quint8);  l2norm_weight = l2norm_scale_3 = l2norm_zero_point_3 = None
+    unsqueeze = quantize_per_tensor_51.unsqueeze(0);  quantize_per_tensor_51 = None
+    unsqueeze_1 = unsqueeze.unsqueeze(2);  unsqueeze = None
+    unsqueeze_2 = unsqueeze_1.unsqueeze(3);  unsqueeze_1 = None
+    dequantize_54 = unsqueeze_2.dequantize();  unsqueeze_2 = None
+    expand_as = dequantize_54.expand_as(div);  dequantize_54 = div = None
+    l2norm_scale_7 = self.L2Norm_scale_7
+    l2norm_zero_point_7 = self.L2Norm_zero_point_7
+    quantize_per_tensor_55 = torch.quantize_per_tensor(expand_as, l2norm_scale_7, l2norm_zero_point_7, torch.quint8);  expand_as = l2norm_scale_7 = l2norm_zero_point_7 = None
+    l2norm_scale_8 = self.L2Norm_scale_8
+    l2norm_zero_point_8 = self.L2Norm_zero_point_8
+    mul_1 = torch.ops.quantized.mul(quantize_per_tensor_55, quantize_per_tensor_50, l2norm_scale_8, l2norm_zero_point_8);  quantize_per_tensor_55 = quantize_per_tensor_50 = l2norm_scale_8 = l2norm_zero_point_8 = None
+    dequantize_56 = mul_1.dequantize();  mul_1 = None
+    mobilenet_14_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "14").conv, "0"), "0")(add_18);  add_18 = None
+    mobilenet_14_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "14").conv, "1"), "0")(mobilenet_14_conv_0_0);  mobilenet_14_conv_0_0 = None
+    mobilenet_14_conv_2 = getattr(getattr(self.mobilenet, "14").conv, "2")(mobilenet_14_conv_1_0);  mobilenet_14_conv_1_0 = None
+    mobilenet_15_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "15").conv, "0"), "0")(mobilenet_14_conv_2)
+    mobilenet_15_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "15").conv, "1"), "0")(mobilenet_15_conv_0_0);  mobilenet_15_conv_0_0 = None
+    mobilenet_15_conv_2 = getattr(getattr(self.mobilenet, "15").conv, "2")(mobilenet_15_conv_1_0);  mobilenet_15_conv_1_0 = None
+    mobilenet_15_scale_0 = self.mobilenet_15_scale_0
+    mobilenet_15_zero_point_0 = self.mobilenet_15_zero_point_0
+    add_20 = torch.ops.quantized.add(mobilenet_14_conv_2, mobilenet_15_conv_2, mobilenet_15_scale_0, mobilenet_15_zero_point_0);  mobilenet_14_conv_2 = mobilenet_15_conv_2 = mobilenet_15_scale_0 = mobilenet_15_zero_point_0 = None
+    mobilenet_16_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "16").conv, "0"), "0")(add_20)
+    mobilenet_16_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "16").conv, "1"), "0")(mobilenet_16_conv_0_0);  mobilenet_16_conv_0_0 = None
+    mobilenet_16_conv_2 = getattr(getattr(self.mobilenet, "16").conv, "2")(mobilenet_16_conv_1_0);  mobilenet_16_conv_1_0 = None
+    mobilenet_16_scale_0 = self.mobilenet_16_scale_0
+    mobilenet_16_zero_point_0 = self.mobilenet_16_zero_point_0
+    add_21 = torch.ops.quantized.add(add_20, mobilenet_16_conv_2, mobilenet_16_scale_0, mobilenet_16_zero_point_0);  add_20 = mobilenet_16_conv_2 = mobilenet_16_scale_0 = mobilenet_16_zero_point_0 = None
+    mobilenet_17_conv_0_0 = getattr(getattr(getattr(self.mobilenet, "17").conv, "0"), "0")(add_21);  add_21 = None
+    mobilenet_17_conv_1_0 = getattr(getattr(getattr(self.mobilenet, "17").conv, "1"), "0")(mobilenet_17_conv_0_0);  mobilenet_17_conv_0_0 = None
+    mobilenet_17_conv_2 = getattr(getattr(self.mobilenet, "17").conv, "2")(mobilenet_17_conv_1_0);  mobilenet_17_conv_1_0 = None
+    mobilenet_18_0 = getattr(getattr(self.mobilenet, "18"), "0")(mobilenet_17_conv_2);  mobilenet_17_conv_2 = None
+    dequantize_71 = mobilenet_18_0.dequantize()
+    extras_0_conv_0_0 = getattr(getattr(getattr(self.extras, "0").conv, "0"), "0")(mobilenet_18_0);  mobilenet_18_0 = None
+    extras_0_conv_1_0 = getattr(getattr(getattr(self.extras, "0").conv, "1"), "0")(extras_0_conv_0_0);  extras_0_conv_0_0 = None
+    extras_0_conv_2 = getattr(getattr(self.extras, "0").conv, "2")(extras_0_conv_1_0);  extras_0_conv_1_0 = None
+    dequantize_74 = extras_0_conv_2.dequantize()
+    extras_1_conv_0_0 = getattr(getattr(getattr(self.extras, "1").conv, "0"), "0")(extras_0_conv_2);  extras_0_conv_2 = None
+    extras_1_conv_1_0 = getattr(getattr(getattr(self.extras, "1").conv, "1"), "0")(extras_1_conv_0_0);  extras_1_conv_0_0 = None
+    extras_1_conv_2 = getattr(getattr(self.extras, "1").conv, "2")(extras_1_conv_1_0);  extras_1_conv_1_0 = None
+    dequantize_77 = extras_1_conv_2.dequantize()
+    extras_2_conv_0_0 = getattr(getattr(getattr(self.extras, "2").conv, "0"), "0")(extras_1_conv_2);  extras_1_conv_2 = None
+    extras_2_conv_1_0 = getattr(getattr(getattr(self.extras, "2").conv, "1"), "0")(extras_2_conv_0_0);  extras_2_conv_0_0 = None
+    extras_2_conv_2 = getattr(getattr(self.extras, "2").conv, "2")(extras_2_conv_1_0);  extras_2_conv_1_0 = None
+    dequantize_80 = extras_2_conv_2.dequantize()
+    extras_3_conv_0_0 = getattr(getattr(getattr(self.extras, "3").conv, "0"), "0")(extras_2_conv_2);  extras_2_conv_2 = None
+    extras_3_conv_1_0 = getattr(getattr(getattr(self.extras, "3").conv, "1"), "0")(extras_3_conv_0_0);  extras_3_conv_0_0 = None
+    extras_3_conv_2 = getattr(getattr(self.extras, "3").conv, "2")(extras_3_conv_1_0);  extras_3_conv_1_0 = None
+    dequantize_83 = extras_3_conv_2.dequantize();  extras_3_conv_2 = None
+    loc_0 = getattr(self.loc, "0")(dequantize_56)
+    permute = loc_0.permute(0, 2, 3, 1);  loc_0 = None
+    contiguous = permute.contiguous();  permute = None
+    conf_0 = getattr(self.conf, "0")(dequantize_56);  dequantize_56 = None
+    permute_1 = conf_0.permute(0, 2, 3, 1);  conf_0 = None
+    contiguous_1 = permute_1.contiguous();  permute_1 = None
+    loc_1 = getattr(self.loc, "1")(dequantize_71)
+    permute_2 = loc_1.permute(0, 2, 3, 1);  loc_1 = None
+    contiguous_2 = permute_2.contiguous();  permute_2 = None
+    conf_1 = getattr(self.conf, "1")(dequantize_71);  dequantize_71 = None
+    permute_3 = conf_1.permute(0, 2, 3, 1);  conf_1 = None
+    contiguous_3 = permute_3.contiguous();  permute_3 = None
+    loc_2 = getattr(self.loc, "2")(dequantize_74)
+    permute_4 = loc_2.permute(0, 2, 3, 1);  loc_2 = None
+    contiguous_4 = permute_4.contiguous();  permute_4 = None
+    conf_2 = getattr(self.conf, "2")(dequantize_74);  dequantize_74 = None
+    permute_5 = conf_2.permute(0, 2, 3, 1);  conf_2 = None
+    contiguous_5 = permute_5.contiguous();  permute_5 = None
+    loc_3 = getattr(self.loc, "3")(dequantize_77)
+    permute_6 = loc_3.permute(0, 2, 3, 1);  loc_3 = None
+    contiguous_6 = permute_6.contiguous();  permute_6 = None
+    conf_3 = getattr(self.conf, "3")(dequantize_77);  dequantize_77 = None
+    permute_7 = conf_3.permute(0, 2, 3, 1);  conf_3 = None
+    contiguous_7 = permute_7.contiguous();  permute_7 = None
+    loc_4 = getattr(self.loc, "4")(dequantize_80)
+    permute_8 = loc_4.permute(0, 2, 3, 1);  loc_4 = None
+    contiguous_8 = permute_8.contiguous();  permute_8 = None
+    conf_4 = getattr(self.conf, "4")(dequantize_80);  dequantize_80 = None
+    permute_9 = conf_4.permute(0, 2, 3, 1);  conf_4 = None
+    contiguous_9 = permute_9.contiguous();  permute_9 = None
+    loc_5 = getattr(self.loc, "5")(dequantize_83)
+    permute_10 = loc_5.permute(0, 2, 3, 1);  loc_5 = None
+    contiguous_10 = permute_10.contiguous();  permute_10 = None
+    conf_5 = getattr(self.conf, "5")(dequantize_83);  dequantize_83 = None
+    permute_11 = conf_5.permute(0, 2, 3, 1);  conf_5 = None
+    contiguous_11 = permute_11.contiguous();  permute_11 = None
+    size = contiguous.size(0)
+    view = contiguous.view(size, -1);  contiguous = size = None
+    _scale_0 = self._scale_0
+    _zero_point_0 = self._zero_point_0
+    quantize_per_tensor_84 = torch.quantize_per_tensor(view, _scale_0, _zero_point_0, torch.quint8);  view = _scale_0 = _zero_point_0 = None
+    dequantize_84 = quantize_per_tensor_84.dequantize();  quantize_per_tensor_84 = None
+    size_1 = contiguous_2.size(0)
+    view_1 = contiguous_2.view(size_1, -1);  contiguous_2 = size_1 = None
+    _scale_1 = self._scale_1
+    _zero_point_1 = self._zero_point_1
+    quantize_per_tensor_85 = torch.quantize_per_tensor(view_1, _scale_1, _zero_point_1, torch.quint8);  view_1 = _scale_1 = _zero_point_1 = None
+    dequantize_85 = quantize_per_tensor_85.dequantize();  quantize_per_tensor_85 = None
+    size_2 = contiguous_4.size(0)
+    view_2 = contiguous_4.view(size_2, -1);  contiguous_4 = size_2 = None
+    _scale_2 = self._scale_2
+    _zero_point_2 = self._zero_point_2
+    quantize_per_tensor_86 = torch.quantize_per_tensor(view_2, _scale_2, _zero_point_2, torch.quint8);  view_2 = _scale_2 = _zero_point_2 = None
+    dequantize_86 = quantize_per_tensor_86.dequantize();  quantize_per_tensor_86 = None
+    size_3 = contiguous_6.size(0)
+    view_3 = contiguous_6.view(size_3, -1);  contiguous_6 = size_3 = None
+    _scale_3 = self._scale_3
+    _zero_point_3 = self._zero_point_3
+    quantize_per_tensor_87 = torch.quantize_per_tensor(view_3, _scale_3, _zero_point_3, torch.quint8);  view_3 = _scale_3 = _zero_point_3 = None
+    dequantize_87 = quantize_per_tensor_87.dequantize();  quantize_per_tensor_87 = None
+    size_4 = contiguous_8.size(0)
+    view_4 = contiguous_8.view(size_4, -1);  contiguous_8 = size_4 = None
+    _scale_4 = self._scale_4
+    _zero_point_4 = self._zero_point_4
+    quantize_per_tensor_88 = torch.quantize_per_tensor(view_4, _scale_4, _zero_point_4, torch.quint8);  view_4 = _scale_4 = _zero_point_4 = None
+    dequantize_88 = quantize_per_tensor_88.dequantize();  quantize_per_tensor_88 = None
+    size_5 = contiguous_10.size(0)
+    view_5 = contiguous_10.view(size_5, -1);  contiguous_10 = size_5 = None
+    _scale_5 = self._scale_5
+    _zero_point_5 = self._zero_point_5
+    quantize_per_tensor_89 = torch.quantize_per_tensor(view_5, _scale_5, _zero_point_5, torch.quint8);  view_5 = _scale_5 = _zero_point_5 = None
+    dequantize_89 = quantize_per_tensor_89.dequantize();  quantize_per_tensor_89 = None
+    cat = torch.cat([dequantize_84, dequantize_85, dequantize_86, dequantize_87, dequantize_88, dequantize_89], 1);  dequantize_84 = dequantize_85 = dequantize_86 = dequantize_87 = dequantize_88 = dequantize_89 = None
+    size_6 = contiguous_1.size(0)
+    view_6 = contiguous_1.view(size_6, -1);  contiguous_1 = size_6 = None
+    _scale_6 = self._scale_6
+    _zero_point_6 = self._zero_point_6
+    quantize_per_tensor_90 = torch.quantize_per_tensor(view_6, _scale_6, _zero_point_6, torch.quint8);  view_6 = _scale_6 = _zero_point_6 = None
+    dequantize_90 = quantize_per_tensor_90.dequantize();  quantize_per_tensor_90 = None
+    size_7 = contiguous_3.size(0)
+    view_7 = contiguous_3.view(size_7, -1);  contiguous_3 = size_7 = None
+    _scale_7 = self._scale_7
+    _zero_point_7 = self._zero_point_7
+    quantize_per_tensor_91 = torch.quantize_per_tensor(view_7, _scale_7, _zero_point_7, torch.quint8);  view_7 = _scale_7 = _zero_point_7 = None
+    dequantize_91 = quantize_per_tensor_91.dequantize();  quantize_per_tensor_91 = None
+    size_8 = contiguous_5.size(0)
+    view_8 = contiguous_5.view(size_8, -1);  contiguous_5 = size_8 = None
+    _scale_8 = self._scale_8
+    _zero_point_8 = self._zero_point_8
+    quantize_per_tensor_92 = torch.quantize_per_tensor(view_8, _scale_8, _zero_point_8, torch.quint8);  view_8 = _scale_8 = _zero_point_8 = None
+    dequantize_92 = quantize_per_tensor_92.dequantize();  quantize_per_tensor_92 = None
+    size_9 = contiguous_7.size(0)
+    view_9 = contiguous_7.view(size_9, -1);  contiguous_7 = size_9 = None
+    _scale_9 = self._scale_9
+    _zero_point_9 = self._zero_point_9
+    quantize_per_tensor_93 = torch.quantize_per_tensor(view_9, _scale_9, _zero_point_9, torch.quint8);  view_9 = _scale_9 = _zero_point_9 = None
+    dequantize_93 = quantize_per_tensor_93.dequantize();  quantize_per_tensor_93 = None
+    size_10 = contiguous_9.size(0)
+    view_10 = contiguous_9.view(size_10, -1);  contiguous_9 = size_10 = None
+    _scale_10 = self._scale_10
+    _zero_point_10 = self._zero_point_10
+    quantize_per_tensor_94 = torch.quantize_per_tensor(view_10, _scale_10, _zero_point_10, torch.quint8);  view_10 = _scale_10 = _zero_point_10 = None
+    dequantize_94 = quantize_per_tensor_94.dequantize();  quantize_per_tensor_94 = None
+    size_11 = contiguous_11.size(0)
+    view_11 = contiguous_11.view(size_11, -1);  contiguous_11 = size_11 = None
+    _scale_11 = self._scale_11
+    _zero_point_11 = self._zero_point_11
+    quantize_per_tensor_95 = torch.quantize_per_tensor(view_11, _scale_11, _zero_point_11, torch.quint8);  view_11 = _scale_11 = _zero_point_11 = None
+    dequantize_95 = quantize_per_tensor_95.dequantize();  quantize_per_tensor_95 = None
+    cat_1 = torch.cat([dequantize_90, dequantize_91, dequantize_92, dequantize_93, dequantize_94, dequantize_95], 1);  dequantize_90 = dequantize_91 = dequantize_92 = dequantize_93 = dequantize_94 = dequantize_95 = None
+    size_12 = cat.size(0)
+    view_12 = cat.view(size_12, -1, 4);  cat = size_12 = None
+    size_13 = cat_1.size(0)
+    view_13 = cat_1.view(size_13, -1, 4);  cat_1 = size_13 = None
+    return (view_12, view_13)
+    
+# To see more debug info, please use `graph_module.print_readable()`
+Mean time: 22.288 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(3, 32, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1))
+  )
+  (1): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+      )
+      (1): QuantizedConv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (2): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+      )
+      (2): QuantizedConv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (3): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+      )
+      (2): QuantizedConv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (4): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+      )
+      (2): QuantizedConv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (5): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+      )
+      (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (6): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+      )
+      (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (7): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+      )
+      (2): QuantizedConv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (8): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+      )
+      (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (9): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+      )
+      (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (10): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+      )
+      (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (11): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+      )
+      (2): QuantizedConv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (12): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+      )
+      (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (13): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+      )
+      (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (14): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+      )
+      (2): QuantizedConv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (15): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+      )
+      (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (16): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+      )
+      (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (17): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+      )
+      (2): QuantizedConv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (18): Module(
+    (0): QuantizedConvReLU2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.362 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(3, 32, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1))
+)
+Mean time: 21.135 ms
+Measuring time for QuantizedConvReLU2d(3, 32, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1))
+Mean time: 21.364 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+    )
+    (1): QuantizedConv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.304 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+  )
+  (1): QuantizedConv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.165 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+)
+Mean time: 21.187 ms
+Measuring time for QuantizedConvReLU2d(32, 32, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=32)
+Mean time: 21.802 ms
+Measuring time for QuantizedConv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.300 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+    )
+    (2): QuantizedConv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.246 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+  )
+  (2): QuantizedConv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.781 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.927 ms
+Measuring time for QuantizedConvReLU2d(16, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.921 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+)
+Mean time: 21.959 ms
+Measuring time for QuantizedConvReLU2d(96, 96, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=96)
+Mean time: 21.224 ms
+Measuring time for QuantizedConv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.763 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+    )
+    (2): QuantizedConv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.324 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+  )
+  (2): QuantizedConv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.293 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.909 ms
+Measuring time for QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.565 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+)
+Mean time: 21.441 ms
+Measuring time for QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+Mean time: 21.627 ms
+Measuring time for QuantizedConv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.348 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+    )
+    (2): QuantizedConv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.071 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+  )
+  (2): QuantizedConv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.203 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.051 ms
+Measuring time for QuantizedConvReLU2d(24, 144, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.558 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+)
+Mean time: 21.131 ms
+Measuring time for QuantizedConvReLU2d(144, 144, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=144)
+Mean time: 21.021 ms
+Measuring time for QuantizedConv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.946 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+    )
+    (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 24.033 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+  )
+  (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 23.123 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.217 ms
+Measuring time for QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 23.913 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+)
+Mean time: 21.836 ms
+Measuring time for QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+Mean time: 22.025 ms
+Measuring time for QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.115 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+    )
+    (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.948 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+  )
+  (2): QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.265 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.177 ms
+Measuring time for QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 23.039 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+)
+Mean time: 22.950 ms
+Measuring time for QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+Mean time: 22.083 ms
+Measuring time for QuantizedConv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.914 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+    )
+    (2): QuantizedConv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.065 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+  )
+  (2): QuantizedConv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.808 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.408 ms
+Measuring time for QuantizedConvReLU2d(32, 192, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.996 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+)
+Mean time: 23.620 ms
+Measuring time for QuantizedConvReLU2d(192, 192, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=192)
+Mean time: 21.058 ms
+Measuring time for QuantizedConv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.501 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+    )
+    (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.565 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+  )
+  (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.071 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.996 ms
+Measuring time for QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.417 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+)
+Mean time: 21.102 ms
+Measuring time for QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+Mean time: 21.713 ms
+Measuring time for QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.474 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+    )
+    (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.935 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+  )
+  (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.208 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.893 ms
+Measuring time for QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.147 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+)
+Mean time: 21.795 ms
+Measuring time for QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+Mean time: 23.975 ms
+Measuring time for QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.840 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+    )
+    (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.784 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+  )
+  (2): QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.507 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.363 ms
+Measuring time for QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.953 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+)
+Mean time: 21.971 ms
+Measuring time for QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+Mean time: 21.231 ms
+Measuring time for QuantizedConv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.876 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+    )
+    (2): QuantizedConv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.019 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+  )
+  (2): QuantizedConv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.301 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.212 ms
+Measuring time for QuantizedConvReLU2d(64, 384, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.220 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+)
+Mean time: 22.136 ms
+Measuring time for QuantizedConvReLU2d(384, 384, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=384)
+Mean time: 22.468 ms
+Measuring time for QuantizedConv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.150 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+    )
+    (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 20.990 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+  )
+  (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.383 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.044 ms
+Measuring time for QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.411 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+)
+Mean time: 22.418 ms
+Measuring time for QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+Mean time: 21.965 ms
+Measuring time for QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.177 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+    )
+    (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.793 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+  )
+  (2): QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.895 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.337 ms
+Measuring time for QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.391 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+)
+Mean time: 22.309 ms
+Measuring time for QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+Mean time: 22.224 ms
+Measuring time for QuantizedConv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.671 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+    )
+    (2): QuantizedConv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.875 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+  )
+  (2): QuantizedConv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.769 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.019 ms
+Measuring time for QuantizedConvReLU2d(96, 576, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.607 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+)
+Mean time: 21.075 ms
+Measuring time for QuantizedConvReLU2d(576, 576, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=576)
+Mean time: 21.501 ms
+Measuring time for QuantizedConv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.271 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+    )
+    (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.996 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+  )
+  (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.802 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.410 ms
+Measuring time for QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.555 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+)
+Mean time: 22.234 ms
+Measuring time for QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+Mean time: 22.251 ms
+Measuring time for QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.115 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+    )
+    (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.698 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+  )
+  (2): QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.429 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.738 ms
+Measuring time for QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.755 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+)
+Mean time: 23.634 ms
+Measuring time for QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+Mean time: 22.282 ms
+Measuring time for QuantizedConv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.261 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+    )
+    (2): QuantizedConv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.755 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+  )
+  (2): QuantizedConv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.731 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.119 ms
+Measuring time for QuantizedConvReLU2d(160, 960, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.876 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+)
+Mean time: 22.125 ms
+Measuring time for QuantizedConvReLU2d(960, 960, kernel_size=(3, 3), stride=(1, 1), scale=1.0, zero_point=0, padding=(1, 1), groups=960)
+Mean time: 21.609 ms
+Measuring time for QuantizedConv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.235 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.668 ms
+Measuring time for QuantizedConvReLU2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.529 ms
+Measuring time for Module()
+Mean time: 21.515 ms
+Measuring time for Module(
+  (0): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+      )
+      (2): QuantizedConvReLU2d(256, 512, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (1): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+      )
+      (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (2): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+      )
+      (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+  (3): Module(
+    (conv): Module(
+      (0): Module(
+        (0): QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+      )
+      (1): Module(
+        (0): QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+      )
+      (2): QuantizedConvReLU2d(64, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+  )
+)
+Mean time: 22.089 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+    )
+    (2): QuantizedConvReLU2d(256, 512, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.300 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+  )
+  (2): QuantizedConvReLU2d(256, 512, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.844 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.280 ms
+Measuring time for QuantizedConvReLU2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 23.186 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+)
+Mean time: 21.568 ms
+Measuring time for QuantizedConvReLU2d(256, 256, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=256)
+Mean time: 21.222 ms
+Measuring time for QuantizedConvReLU2d(256, 512, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.549 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+    )
+    (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.884 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+  )
+  (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.390 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.149 ms
+Measuring time for QuantizedConvReLU2d(512, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.206 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+)
+Mean time: 21.896 ms
+Measuring time for QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+Mean time: 22.575 ms
+Measuring time for QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 26.518 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+    )
+    (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 22.384 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+  )
+  (2): QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.276 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 21.998 ms
+Measuring time for QuantizedConvReLU2d(256, 128, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 21.332 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+)
+Mean time: 21.667 ms
+Measuring time for QuantizedConvReLU2d(128, 128, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=128)
+Mean time: 22.583 ms
+Measuring time for QuantizedConvReLU2d(128, 256, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.954 ms
+Measuring time for Module(
+  (conv): Module(
+    (0): Module(
+      (0): QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+    )
+    (1): Module(
+      (0): QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+    )
+    (2): QuantizedConvReLU2d(64, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+)
+Mean time: 21.886 ms
+Measuring time for Module(
+  (0): Module(
+    (0): QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+  )
+  (1): Module(
+    (0): QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+  )
+  (2): QuantizedConvReLU2d(64, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.097 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+)
+Mean time: 22.786 ms
+Measuring time for QuantizedConvReLU2d(256, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 23.737 ms
+Measuring time for Module(
+  (0): QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+)
+Mean time: 23.181 ms
+Measuring time for QuantizedConvReLU2d(64, 64, kernel_size=(3, 3), stride=(2, 2), scale=1.0, zero_point=0, padding=(1, 1), groups=64)
+Mean time: 22.902 ms
+Measuring time for QuantizedConvReLU2d(64, 64, kernel_size=(1, 1), stride=(1, 1), scale=1.0, zero_point=0)
+Mean time: 22.375 ms
+Measuring time for Module(
+  (0): Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (2): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (4): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (5): Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+Mean time: 21.298 ms
+Measuring time for Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 23.245 ms
+Measuring time for Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 22.847 ms
+Measuring time for Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 21.629 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 23.281 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 21.481 ms
+Measuring time for Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 22.072 ms
+Measuring time for Module(
+  (0): Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (2): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (4): Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (5): Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+Mean time: 22.056 ms
+Measuring time for Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 21.781 ms
+Measuring time for Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 21.871 ms
+Measuring time for Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 22.302 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 22.567 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 23.702 ms
+Measuring time for Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 22.239 ms

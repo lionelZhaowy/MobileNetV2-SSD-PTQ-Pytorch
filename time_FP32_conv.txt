@@ -1,0 +1,152 @@
+Measuring time for Conv2d(3, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+Mean time: 46.059 ms
+Measuring time for Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=32, bias=False)
+Mean time: 45.907 ms
+Measuring time for Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.985 ms
+Measuring time for Conv2d(16, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.222 ms
+Measuring time for Conv2d(96, 96, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=96, bias=False)
+Mean time: 42.359 ms
+Measuring time for Conv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.576 ms
+Measuring time for Conv2d(24, 144, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.294 ms
+Measuring time for Conv2d(144, 144, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=144, bias=False)
+Mean time: 43.012 ms
+Measuring time for Conv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.763 ms
+Measuring time for Conv2d(24, 144, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.296 ms
+Measuring time for Conv2d(144, 144, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=144, bias=False)
+Mean time: 43.148 ms
+Measuring time for Conv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 44.734 ms
+Measuring time for Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.326 ms
+Measuring time for Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192, bias=False)
+Mean time: 45.214 ms
+Measuring time for Conv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.654 ms
+Measuring time for Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.869 ms
+Measuring time for Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192, bias=False)
+Mean time: 45.429 ms
+Measuring time for Conv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.110 ms
+Measuring time for Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 48.861 ms
+Measuring time for Conv2d(192, 192, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=192, bias=False)
+Mean time: 46.792 ms
+Measuring time for Conv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 47.751 ms
+Measuring time for Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 49.234 ms
+Measuring time for Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+Mean time: 45.907 ms
+Measuring time for Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 47.073 ms
+Measuring time for Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.238 ms
+Measuring time for Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+Mean time: 44.852 ms
+Measuring time for Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.592 ms
+Measuring time for Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.744 ms
+Measuring time for Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+Mean time: 43.344 ms
+Measuring time for Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.638 ms
+Measuring time for Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.467 ms
+Measuring time for Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+Mean time: 42.753 ms
+Measuring time for Conv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.019 ms
+Measuring time for Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 41.493 ms
+Measuring time for Conv2d(576, 576, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=576, bias=False)
+Mean time: 44.297 ms
+Measuring time for Conv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 47.657 ms
+Measuring time for Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.710 ms
+Measuring time for Conv2d(576, 576, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=576, bias=False)
+Mean time: 43.209 ms
+Measuring time for Conv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.704 ms
+Measuring time for Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.421 ms
+Measuring time for Conv2d(576, 576, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=576, bias=False)
+Mean time: 43.050 ms
+Measuring time for Conv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.945 ms
+Measuring time for Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.239 ms
+Measuring time for Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+Mean time: 44.131 ms
+Measuring time for Conv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 44.375 ms
+Measuring time for Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 44.334 ms
+Measuring time for Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+Mean time: 42.708 ms
+Measuring time for Conv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.717 ms
+Measuring time for Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.530 ms
+Measuring time for Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+Mean time: 42.990 ms
+Measuring time for Conv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.769 ms
+Measuring time for Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 47.951 ms
+Measuring time for Conv2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.323 ms
+Measuring time for Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=256, bias=False)
+Mean time: 43.107 ms
+Measuring time for Conv2d(256, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 42.795 ms
+Measuring time for Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 47.800 ms
+Measuring time for Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=128, bias=False)
+Mean time: 48.080 ms
+Measuring time for Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 44.910 ms
+Measuring time for Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 45.486 ms
+Measuring time for Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=128, bias=False)
+Mean time: 44.224 ms
+Measuring time for Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 43.270 ms
+Measuring time for Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 39.993 ms
+Measuring time for Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=64, bias=False)
+Mean time: 40.486 ms
+Measuring time for Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+Mean time: 40.532 ms
+Measuring time for Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 41.408 ms
+Measuring time for Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 42.888 ms
+Measuring time for Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 42.547 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 43.023 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 44.816 ms
+Measuring time for Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 45.961 ms
+Measuring time for Conv2d(96, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 44.636 ms
+Measuring time for Conv2d(1280, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 42.347 ms
+Measuring time for Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 41.711 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 42.974 ms
+Measuring time for Conv2d(256, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 40.358 ms
+Measuring time for Conv2d(64, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Mean time: 42.153 ms
